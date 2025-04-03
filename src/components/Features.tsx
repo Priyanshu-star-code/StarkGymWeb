@@ -12,7 +12,7 @@ const features = [
     icon: <Users className="w-6 h-6" />
   },
   {
-    image: 'https://images.unsplash.com/photo-1637666062717-1c6bcfa4a4c1?auto=format&fit=crop&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpbxEceJ5dZKYgtMV6ZMBxHLzX39EkMgRxabjBb-nElYZAwVKBh0JhZWrE4YOJZjbFFvg&usqp=CAU',
     title: 'State-of-the-Art Equipment',
     description: 'Train with top-notch gym equipment for optimal results.',
     icon: <Dumbbell className="w-6 h-6" />

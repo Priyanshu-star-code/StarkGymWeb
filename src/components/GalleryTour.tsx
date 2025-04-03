@@ -7,7 +7,7 @@ import { Play, X, ChevronLeft, ChevronRight } from 'lucide-react';
 const galleryItems = [
   {
     type: 'image',
-    url: 'https://lh3.googleusercontent.com/p/AF1QipM38-3x8BreO7_frhmzK-gpTGCp1z42jVzb8pUa=w408-h544-k-no',
+    url: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80',
     title: 'Main Training Area',
     category: 'Facilities'
   },
@@ -39,7 +39,7 @@ const galleryItems = [
   },
   {
     type: 'image',
-    url: 'https://lh3.googleusercontent.com/p/AF1QipM38-3x8BreO7_frhmzK-gpTGCp1z42jVzb8pUa=w408-h544-k-no',
+    url: 'https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&q=80',
     title: 'Luxury Locker Rooms',
     category: 'Facilities'
   }
