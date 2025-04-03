@@ -5,7 +5,7 @@ import { useTheme } from '../context/ThemeContext';
 const plans = [
   {
     name: 'Basic',
-    price: '29',
+    price: '2000',
     duration: 'month',
     features: [
       'Access to gym facilities',
@@ -14,11 +14,11 @@ const plans = [
       'Locker room access',
     ],
     isPopular: false,
-    discount: '20% off first 3 months',
+    discount: '20% off first 1 months',
   },
   {
     name: 'Pro',
-    price: '59',
+    price: '5000',
     duration: 'month',
     features: [
       'Unlimited gym access',
@@ -33,18 +33,18 @@ const plans = [
   },
   {
     name: 'Elite',
-    price: '99',
-    duration: 'month',
+    price: '9999',
+    duration: '6 month',
     features: [
       'All Pro features',
       'Unlimited personal training',
       'Monthly massage session',
       'Customized meal plans',
       'Private locker',
-      'Guest passes (2/month)',
+      'Guest passes (month)',
     ],
     isPopular: false,
-    discount: '25% off first 3 months',
+    discount: '25% off first 6 months',
   },
 ];
 
@@ -92,8 +92,8 @@ const Pricing = () => {
                   {plan.name}
                 </h3>
                 <div className="flex items-center justify-center mb-2">
-                  <span className={theme === 'dark' ? 'text-gray-400' : 'text-gray-500'}>$</span>
-                  <span className={`text-5xl font-bold ${
+                  <span className={theme === 'dark' ? 'text-gray-400' : 'text-gray-500'}>₹</span>
+                  <span className={`text-5xl font-bold  ${
                     theme === 'dark' ? 'text-white' : 'text-gray-900'
                   }`}>
                     {plan.price}
